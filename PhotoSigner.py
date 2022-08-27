@@ -62,8 +62,8 @@ def add_sign(images, signPath="sign.png", destinationFolder="signed/"):
             count = len(list_pics)
             # print("counted:", count)
             print(f"dest {destinationFolder}")
-            image.save(f'{destinationFolder}/signed_{str(count)}.png', 'PNG')
-            # image.save('signed/compressed_' + str(count) + '.jpg', 'JPEG', optimize = True, quality = 10)
+            # image.save(f'{destinationFolder}/signed_{str(count)}.png', 'PNG')
+            image.save(f'{destinationFolder}/compressed_{str(count)}.jpg', 'JPEG', optimize=True, quality=70)
 
             print("saved!")
     print("DONE.")
