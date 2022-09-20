@@ -1,2 +1,2 @@
 # PhotoSigner
-Add your own signature tou your own photos
+Sign & compress your photos
